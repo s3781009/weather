@@ -15,7 +15,7 @@ function App() {
   let dateNow = new Date(currentWeather ? (currentWeather.dt * 1000) : 0);
   const searchLocation = () => {
     console.log(input);
-    let url = "http://api.openweathermap.org/geo/1.0/direct?q=" + input + "&limit=5&appid=5e532fb5655cf4c4f0e3d2a54be74067";
+    let url = "https://api.openweathermap.org/geo/1.0/direct?q=" + input + "&limit=5&appid=5e532fb5655cf4c4f0e3d2a54be74067";
     fetch(url)
       .then(res => res.json())
       .then(data => {
