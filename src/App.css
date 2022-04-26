@@ -1,0 +1,198 @@
+.App {
+  text-align: center;
+}
+.Header{
+ color: dodgerblue;
+}
+.textin{
+  border-radius: 5px 0 0 5px;
+  border: none;
+  width: 80%;
+  height: inherit;
+  margin-left: 100px;
+}
+.textin:focus{
+  outline: #EB6F4C 2px solid;
+  box-shadow: 0 0 10px #605f5f;
+}
+.logo{
+  height: 20px;
+  width: 40px;
+}
+.Earth{
+  height: 400px;
+  background-color: black;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.Search{
+  border: none;
+  background-color: #EB6F4C;
+  width: 50px;
+  height: 42px;
+  border-radius: 0px 5px 5px 0px;
+  margin-right: 100px;
+  transition-duration: 0.4s;
+  }
+.Search:hover{
+  background-color: #343A40;
+}
+.name{
+  font-size: 20px;
+  margin: 0px;
+
+}
+.input{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  height: 40px;
+}
+.logodiv{
+  flex-direction: row;
+  height: 40px;
+  width: 130px;
+
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #343A40;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-left: 50px;
+}
+.toggle{
+  width: 170px;
+  height: 42px;
+  border: none;
+  border-radius: 5px;
+
+}
+.main{
+  height: 405px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.stats{
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+  margin-left: 50px;
+}
+.list{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.cel{
+  width: 100px;
+  height: 42px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  transition-duration: 0.4s;
+}
+.cel:hover{
+  background-color: #EB6F4C;
+}
+.cel-clicked{
+  width: 100px;
+  height: 42px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  transition-duration: 0.4s;
+  background-color: #EB6F4C;
+}
+.far{
+  width: 100px;
+  height: 42px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  transition-duration: 0.4s;
+}
+.far-clicked{
+  width: 100px;
+  height: 42px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+ background-color: #EB6F4C;
+}
+.far:hover{
+  background-color: #EB6F4C;
+}
+.far:visited{
+  background-color: #EB6F4C;
+}
+.litem{
+
+}
+.current{
+  height: 180px;
+  background-color: #343A40;
+  display: flex;
+  justify-content: start;
+
+}
+.searchIcon{
+  width: 30px;
+  height: 30px;
+}
+.currentTemp{
+  font-size: 60px;
+}
+.now{
+  color: white;
+  margin-left: 30px;
+}
+.current-container{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 80px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.white-text{
+  color: white;
+  opacity: 80%;
+  font-size: 16px;
+}
+.current-attributes{
+  display: flex;
+  flex-direction: column;
+}
+.attributes{
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,10 @@
+.temp-forecast{
+    font-family: Roboto, serif;
+    font-size: 28px;
+    color: #343A40;
+    opacity: 80%;
+}
+.temp-next{
+    font-family: Roboto, serif;
+    font-size: 28px;
+}
