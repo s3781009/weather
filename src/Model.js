@@ -5,7 +5,7 @@ import { useRef } from 'react';
 const Model = () => {
 
 
-  const gltf = useLoader(GLTFLoader, '/earth/scene.gltf');
+  const gltf = useLoader(GLTFLoader, '/weather/earth/scene.gltf');
   return (
     <>
       <primitive  position={[0, 0, 0]} object={gltf.scene} scale={0.0008} />
