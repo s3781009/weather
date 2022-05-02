@@ -101,7 +101,8 @@ function App() {
       <div className="main">
         <div className="stats">
           <h1>{currentWeather.name}</h1>
-          <p>{date.toLocaleString('en-US', { weekday: "long" }) + date.toLocaleDateString()}</p>
+          <p>{date.toLocaleString('en-US', { weekday: "long" })</p>
+            <p> date.toLocaleDateString()}</p>
           <h1 className="currentTemp">
             {toggle ? (parseFloat(currentWeather.main.temp) - 273).toFixed(0)
               : ((parseFloat(currentWeather.main.temp) - 273) * 9 / 5 + 32).toFixed(0)}
